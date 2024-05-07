@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Marquesina</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: "Engravers MT", sans-serif;
+        }
+        h1 {
+            text-align: center;
+        }
+        .marquee {
+            color: black;
+            background-color: white;
+            animation: marquee 6s linear infinite alternate;
+        }
+        @keyframes marquee {
+            from { transform: translateX(120%); }
+            to { transform: translateX(-120%); }
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        <div class="marquee">NVIDIA VS AMD</div>
+    </h1>
+</body>
+</html>
